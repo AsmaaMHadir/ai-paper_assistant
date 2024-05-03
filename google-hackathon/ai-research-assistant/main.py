@@ -2,6 +2,9 @@ import streamlit as st
 from PyPDF2 import PdfReader
 import pdfplumber
 import os
+from dotenv import load_dotenv
+load_dotenv()
+
 #from dotenv import load_dotenv
 import google.generativeai as genai
 
